@@ -29,7 +29,7 @@ const HotCollections = () => {
         console.error("Error fetching data:", error);
       }
     };
-
+       / / This working?
     fetchData();
     AOS.init({
       duration: 1000,
